@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "nextjsawsamplifyapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authnextjsawsamplifyappfb2f4df0",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
